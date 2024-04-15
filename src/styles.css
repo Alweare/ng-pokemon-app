@@ -1,17 +1,1 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-	margin: 0;
-	padding: 0;
-}
-.text-pokemon {
-	font-weight: bold;
-	align-items: center;
-	
-}
-.container-text-pokemon{
-	display: flex;
-	flex-direction: column;
-	
-	
-	
-}
