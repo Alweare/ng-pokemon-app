@@ -9,10 +9,9 @@ import { materialize } from "rxjs";
 })
 export class AppComponent implements OnInit {
 	pokemonList: Pokemon[] = POKEMONS;
-	pokemonSelected: Pokemon|undefined;
+	pokemonSelected: Pokemon | undefined;
 	ngOnInit() {
 		// méthode qui se lance a l'initialisation.
-		console.table(this.pokemonList);
 	}
 
 	selectPokemon(pokemonId: String) {
