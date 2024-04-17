@@ -18,6 +18,6 @@ const pokemonRoutes: Routes = [
 		DetailPokemonComponent,
 	],
 	imports: [CommonModule, RouterModule.forChild(pokemonRoutes)],
-  providers: [PokemonService]
+	providers: [PokemonService],
 })
 export class PokemonModule {}
